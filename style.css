@@ -1,0 +1,389 @@
+html, body{
+    background-color:whitesmoke;
+    height:100%;
+    width: 100%;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    margin:auto;
+    font-size: 12px;
+    font-weight: bold;
+    position:fixed;
+    top:0;
+    z-index: 10;
+}
+
+.left-items {
+    font-style: normal;
+    display: flex;
+    font-size: 11px;
+    padding: 0 0 0 0;
+    align-items: baseline;
+}
+span.desktop-newNavLink {
+    padding: 0px 0px 0px 5px;
+    color: crimson;
+    font-size: 15px;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(#f5f5f6, 0.45) 7px 3px 20px 0px;
+}
+
+.left {
+    align-items: center;
+    display: flex;
+}
+.right {
+    padding-right: 110px;
+    display: flex;
+}
+nav {
+    height: 68px;
+}
+
+.logo {
+    height: 38px;
+    width: 50px;
+    padding-left: 50px;
+    
+}
+.item-center {
+    align-items: center;
+    margin: 9px 1px;
+
+}
+
+
+nav ul li {
+    list-style: none;
+    padding: 0 12px;
+    font-weight:500;
+}
+.right-item {
+    padding-right: 12px;
+    padding-left: 12px;
+    display: inline-block;
+    position:relative;
+}
+.profile-item {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 5px 10px;
+}
+
+.desktop-searchBar {
+    width: 200px;
+    margin-left: 0px;
+    height: 4.4vh;
+    background-color: #f5f5f6;
+    border: 0px ;
+    border-radius: 0 5px 5px 0;
+    font-size: 12px;
+    padding-right: 30px;
+}
+.search-item {
+    background-color: #f5f5f6;
+    height: 2vh;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+}
+
+.img-1 {
+    width: 75%;
+    margin: 85px 174px 5px 174px;
+}
+.img-2 {
+    width: 85%;
+    padding: 0 100px 0 100px;
+}
+.img-3 {
+    width: 75%;
+    margin: 10px 174px 10px 174px;
+}
+.img-4 {
+    width: 85%;
+    padding: 0 100px 0 100px;
+}
+
+.omg-deals {
+    width: 85%;
+    margin: 5px 100px 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.omg-deals img {
+    width: 210px;
+    margin: 0 0 10px 5px;
+    border-radius: 10px;
+}
+
+/* .slick-dots {
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+} */
+
+.img-29 {
+    width: 85%;
+    padding: 50px 100px 0 100px;
+    
+}
+
+.shop-by-category {
+    display: flex;
+    justify-content: space-between;
+    width: 85%; 
+    flex-wrap: wrap;
+    margin: 20px 100px 0 100px;
+    
+}
+.shop-by-category img {
+    width: 190px;
+    margin: 0 0 10px 5px;
+}
+
+.downloadingpage {
+    width: 85%;
+    padding: 0 100px 0 100px;
+    margin: 30px 0 0 0;
+}
+
+
+
+
+
+footer {
+    
+    margin-top: 50px;
+    background: #FAFBFC;
+    
+}
+.text-decoration > a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.copyright {
+    text-align: center;
+    margin: 100px 0px 30px 0px;
+}
+
+.desktop-genericinfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 50px 200px 50px;
+}
+.genericinfo {
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.genericinfo a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.desktop-shopLinks {
+    display:inline-grid;
+}
+
+
+.desktop-customerPolicies {
+    display:inline-grid;
+}
+.desktop-appExperience {
+    display:inline-grid;
+}
+
+.downloadlink-content img {
+    height: 30px;
+    margin-right: 15px;
+}
+
+.desktop-promises img {
+    height: 40px;
+    width: 42px;
+    
+}
+.item-of-desktop-promises {
+    padding-bottom: 30px;
+}
+.original {
+    display: flex;
+    font-size: small;
+}
+.returnwithin {
+    display: flex;
+    font-size: small;
+}
+.keep-in-touch {
+    display: flex;
+}
+.keep-in-touch img {
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+
+
+
+@media (max-width:990px) {
+    .space-between {
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: rgba(#f5f5f6, 0.45) 7px 3px 20px 0px;
+    }
+    .right {
+        padding: 0px 20px 0 75px;
+        display: flex;
+    }
+    .space-between {
+        height: 115px;
+    }
+    .img-1 {
+        width: 75%;
+        margin: 140px 174px 5px 174px;
+    }
+    .omg-deals img {
+        width: 132px;
+        margin: 0 0 10px 5px;
+        border-radius: 10px;
+    }
+    .shop-by-category img {
+        width: 132px;
+        margin: 0 0 10px 5px;
+    }
+}
+
+@media (max-width:825px) {
+    .img-1 {
+        width: 75%;
+        margin: 140px 100px 10px 100px;
+    }
+    .img-2 {
+        width: 85%;
+        padding: 0 60px 0 60px;
+    }
+    .img-3 {
+        width: 75%;
+        padding: 0 100px 0 100px;
+    }
+    .img-4 {
+        width: 85%;
+        padding: 45px 60px 5px 60px;
+    }
+    .omg-deals img {
+        width: 115px;
+        margin: 0 0 10px 5px;
+        border-radius: 10px;
+    }
+    .img-29 {
+        width: 85%;
+        padding: 50px 58px 0 58px;
+    }
+    .shop-by-category img {
+        width: 108px;
+        padding: 0 0px 0 0px;
+        margin: 0 0px 10px 0px;
+    }
+    .shop-by-category {
+        display: flex;
+        justify-content: space-between;
+        width: 74%;
+        flex-wrap: wrap;
+        margin: 20px 100px 0 100px;
+    }
+    .downloadingpage {
+        width: 95%;
+        padding: 0px 15px 0 15px;
+        margin: 30px 0 0 0;
+    }
+}
+@media (max-width:420px) {
+    .logo {
+        height: 38px;
+        width: 50px;
+        padding-left: 0px;
+    }
+    .right {
+        margin: 31px 21px 32px -35px;
+        padding: 0px 10px 0 0px;
+        display: flex;
+    }
+    .img-1 {
+        width: 95%;
+        height: 42px;
+        margin: 140px 65px 10px 65px;
+    }
+    .img-2 {
+        width: 115%;
+        padding: 0 15px 0 17px;
+    }
+    .img-3 {
+        width: 95%;
+        padding: 8px 58px 0 58px;
+    }
+    .img-4 {
+        width: 110%;
+        padding: 35px 30px 5px 30px;
+    }
+    .omg-deals {
+        width: 91%;
+        margin: 5px 70px 0px 70px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .omg-deals img {
+        width: 85px;
+        margin: 0 0 10px 5px;
+        border-radius: 10px;
+    }
+    .img-29 {
+        width: 105%;
+        height: 45px;
+        padding: 35px 40px 0 40px;
+    }
+    .shop-by-category img {
+        width: 95px;
+        margin: 0 0px 10px 0px;
+    }
+    .downloadingpage {
+        width: 115%;
+        padding: 0px 15px 0 15px;
+        margin: 30px 0 0 0;
+    }
+    .copyright {
+        text-align: center;
+        margin: 100px 4px 30px 20px;
+    }
+    .desktop-genericinfo {
+        display: flex
+    ;
+        justify-content: space-between;
+        margin-top: 50px;
+        padding: 0 0px 200px 5px;
+    }
+    .desktop-customerPolicies {
+        display: inline-grid
+    ;
+        margin-right: 25px;
+    }
+    .item-of-desktop-promises {
+        padding-bottom: 30px;
+        margin-left: -10px;
+    }
+    footer {
+        width: 497px;
+        margin-top: 50px;
+        background: #FAFBFC;
+    }
+}
